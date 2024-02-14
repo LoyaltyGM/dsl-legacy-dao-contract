@@ -1,0 +1,15 @@
+[package]
+name = "dsl_legacy_dao_contract"
+version = "0.0.1"
+
+[dependencies.Sui]
+git = "https://github.com/MystenLabs/sui.git"
+subdir = "crates/sui-framework/packages/sui-framework"
+# mainnet-1.17.3
+rev = "d338ed98cbb7dd1e9de9340ae9486880dfcb389a"
+## testnet-1.18.1
+#rev = "266bdf43c2bd33e421d395de14d269c59c1fb46f"
+
+
+[addresses]
+dsl_legacy_dao_contract = "0x0"
